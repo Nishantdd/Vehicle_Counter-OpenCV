@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Web camera
-cap = cv2.VideoCapture('D:\\Lang\\Python\\Vehicle_Counter\\video_static.mp4')
+cap = cv2.VideoCapture('Your_Video.mp4') #Example : D:\\Vehicle\\video.mp4
 
 min_width_rect=80 #Minimum width of the rectangle on car
 min_height_rect=120 #Minimum height of the rectangle on car
